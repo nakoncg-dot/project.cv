@@ -29,10 +29,9 @@ body {
 
 /* Fix profile photo size */
 .header-photo img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
+    width: 150px;       /* Keeps the image neat and proportional */
+    height: auto;       /* Shows the full image without cropping */
+    border-radius: 8px; /* Smooth rounded corners */
 }
 
 /* Headings */
