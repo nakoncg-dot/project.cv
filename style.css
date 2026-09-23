@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header layout */
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-header h1 {
+    margin: 0 0 5px 0;
+}
+
+.subtitle {
+    color: green;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* Fix profile photo size */
+.header-photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: rgb(51, 0, 255);
+    margin-bottom: 5px;
+}
+
+/* Utility classes */
+.status, .location, .tech-stack {
+    font-style: italic;
+    margin-top: 0;
+}
+
+/* Dividers & Footer */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
